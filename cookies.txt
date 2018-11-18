@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+event-theme.com	TRUE	/themes/gocourierwp/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+event-theme.com	TRUE	/themes/gocourierwp/	FALSE	1999999999	woocommerce_items_in_cart	1
+event-theme.com	TRUE	/themes/gocourierwp/	FALSE	1999999999	woocommerce_cart_hash	652ee5848740c431031869473edfa713
+event-theme.com	TRUE	/themes/gocourierwp/	FALSE	1999999999	wp_woocommerce_session_34591d3b48033009122365178b4d7a97	a7d3e600b6d42b0acdc8b0f78c47518b%7C%7C1542193832%7C%7C1542190232%7C%7Ca30cef1a58db357fc06da96d7631ad92
+

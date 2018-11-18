@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://unpkg.com/@icon/font-awesome/font-awesome.css">
+    <title>Logistic system for online tracking</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/registration.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+      <!-- <div class="container" style="background-image: url('css/road.png');  overflow:hidden;" >     ... -->
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">VENDOR</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Tracking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Locations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="blog-home-1.html">Blog</a>
+              
+              </div>
+            </li>
+            
+            <li class="nav-item">
+              <a href="#" class="nav-link " data-toggle="modal" data-target=".iq-login-from" data-whatever="@mdo"><i class="fa fa-user"></i></a>
+ </li>
+        
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- <div class="jumbotron"> -->
+<!-- <div class="container" style="background-image: url('css/road.png');">     ... -->
+
+
+<!-- Default form register -->
+<form action="/sign_up" method="POST" class="text-center border border-light col-lg-6 col-md-12 p-5">
+
+<p class="h4 mb-4">Contact Info:</p>
+
+<div class="form-row mb-4">
+<div class="col">
+<!-- First name -->
+<input type="text" id="defaultRegisterFormFirstName" name="firstName" class="form-control " placeholder="FirstName">
+</div>
+<!-- <div class="col">
+     Last name
+    <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+</div> -->
+</div>
+<input type="text" id="defaultRegisterFormEmail" name="lastName" class="form-control mb-4 p-2" placeholder="LastName">
+<div class="form-row mb-4">
+<div class="col">
+<!-- First name -->
+<!-- <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Country">
+</div>
+<div class="col"> -->
+<!-- Last name -->
+<input type="text" id="defaultRegisterFormLastName" name="state" class="form-control" placeholder="State">
+</div>
+</div>
+<div class="form-row mb-4">
+<div class="col">
+<!-- First name -->
+<!-- <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Address1">
+</div>
+<div class="col"> -->
+<!-- Last name -->
+<input type="text" id="defaultRegisterFormEmail" name="address1" class="form-control mb-4" placeholder="Address1">
+<input type="text" id="defaultRegisterFormLastName" name="address2" class="form-control" placeholder="Address2">
+</div>
+</div>
+<div class="form-row mb-4">
+<div class="col">
+<!-- First name -->
+<!-- <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="City">
+</div>
+<div class="col"> -->
+<!-- Last name -->
+<input type="text" id="defaultRegisterFormLastName" name="postal" class="form-control" placeholder="Postal">
+</div>
+</div>
+<input type="text" id="defaultRegisterFormEmail" name="Country" class="form-control mb-4" placeholder="Country">
+<input type="text" id="defaultRegisterFormEmail" name="city" class="form-control mb-4" placeholder="City">
+<!-- E-mail -->
+<input type="email" id="defaultRegisterFormEmail" name="email" class="form-control mb-4" placeholder="E-mail">
+<input type="text" id="defaultRegisterFormEmail" name="companyName" class="form-control mb-4" placeholder="CompanyName">
+<!-- Phone number -->
+<input type="text" id="defaultRegisterPhonePassword" name="phoneNumber" class="form-control" placeholder="PhoneNumber" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+<small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+<!-- Optional - for two step authentication -->
+</small>
+<p class="h4 mb-4">Login Info:</p>
+<!-- Password -->
+<input type="text" id="defaultRegisterFormEmail" name="userId" class="form-control mb-4" placeholder="Create a UserId">
+<input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Create a password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+<small id="defaultRegisterFormPasswordHelpBlock" name="password" class="form-text text-muted mb-4">
+At least 8 characters and 1 digit
+</small>
+<input type="text" id="defaultRegisterFormEmail" name="password1" class="form-control mb-4" placeholder="Re-enter password">
+
+
+
+<!-- Newsletter -->
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+<label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+</div>
+
+<!-- Sign up button -->
+<button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+<!-- Social register -->
+<p>or sign up with:</p>
+
+<a type="button" class="light-blue-text mx-2">
+<i class="fa fa-facebook"></i>
+</a>
+<a type="button" class="light-blue-text mx-2">
+<i class="fa fa-twitter"></i>
+</a>
+<!-- <a type="button" class="light-blue-text mx-2">
+<i class="fa fa-linkedin"></i>
+</a>
+<a type="button" class="light-blue-text mx-2">
+<i class="fa fa-github"></i>
+</a> -->
+
+<hr>
+
+<!-- Terms of service -->
+<p>By clicking
+<em>Sign up</em> you agree to our
+<a href="" target="_blank">terms of service</a> and
+<a href="" target="_blank">terms of service</a>. </p>
+
+</form>
+</div>
+<div class="modal fade iq-login-from" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header text-center">
+    <h4 class="modal-title iq-tw-5">Login</h4>
+    <a class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times; </span>
+    </a>
+    </div>
+    <div class="modal-body">
+    <form>
+    <div class="form-group">
+    <input type="text" class="form-control control" id="recipient-name" placeholder="Enter User ID">
+    </div>
+    <div class="form-group">
+    <input type="password" class="form-control control" id="recipient-password" placeholder="Password">
+    </div>
+    <!-- <h6 class="nationality_wrapper">Nationality</h6>
+    <div style="padding-left:5px;">
+    <label><input type="radio" name="nationality" checked>Nigeria</label>
+    <label><input type="radio" name="nationality">Ghana</label>
+    <label><input type="radio" name="nationality" checked>Sierra leone</label>
+    <label><input type="radio" name="nationality"> Rwanda</label>
+    </div> -->
+    <!-- <a class="button iq-mtb-10" href="#">Sign In</a> -->
+    <!-- <a class="button" href="#">Log In</a> -->
+    <button class="btn btn-primary btn-block" style="padding:20px;">Log In</button>
+    <div class="row">
+    <div class="col-sm-6">
+    <div class="form-check">
+    <label class="form-check-label">
+    <input type="checkbox" class="form-check-input">Remember Me</label>
+    </div>
+    </div>
+    <div class="col-sm-6 text-right forgot">
+    <a  href="#">Forgot Password/User ID</a>
+    </div>
+    </div>
+    </form>
+    </div>
+    <div class="modal-footer text-center">
+    <div> Don't Have an Account? <a href="registration.html" class="iq-font-yellow">Register Now</a></div>
+    <div class="arrange">
+    <ul class="media">
+    <li><a href="# "><i class="fa fa-twitter "></i></a></li>
+    <li><a href="# "><i class="fa fa-facebook "></i></a></li>
+    <li><a href="# "><i class="fa fa-google "></i></a></li>
+    </ul>
+  </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Default form register -->
+</body>
+<!-- Material form register -->
